@@ -20,7 +20,6 @@ This repo is my cloud design for moving the university's exams and assignment su
 | `architecture/` | The diagram, both request walkthroughs, the peak and AZ loss explanation (Task 1) |
 | `architecture/cloud-architecture-lab/` | The simulator files for the Cloud Architecture Lab (Task 3) |
 | `docs/services.md` | The service table: role, why I picked it over an alternative, configuration, connections (Task 2) |
-| `docs/viva-notes.md` | My own notes for the viva |
 | `evidence/` | Screenshots from the Cloud Architecture Lab and test runs |
 | `infra/` | Terraform for the whole stack |
 | `api/` | Node.js API that runs on Fargate, with tests |
