@@ -19,3 +19,14 @@ Screenshots for the parts that can't be seen from the code alone. How to produce
 |---|---|
 | `tests-passing.png` | `npm test` passing in `api/` and `workers/` |
 | `github-actions-test.png` | A green `test` job on GitHub after a push to `main` (tests, `terraform fmt` and `terraform validate`) |
+
+## Screenshots
+
+![Design](cloud-architecture-lab.png)
+![Walkthrough 1](lab-walkthrough-1.png)
+![Walkthrough 2 part A](lab-walkthrough-2a.png)
+![Walkthrough 2 part B](lab-walkthrough-2b.png)
+![AZ-A outage](lab-az-failure.png)
+![Analyze](lab-analyze.png)
+![Tests passing](tests-passing.png)
+![GitHub Actions](github-actions-test.png)

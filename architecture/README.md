@@ -63,3 +63,23 @@ The same design is built in the Cloud Architecture Lab simulator. The draft file
 | Walkthrough 2 part B (upload worker to email queue to email worker) | HTTP 202 |
 | AZ-A outage, then walkthrough 1 again | HTTP 200 through the AZ-B tasks, RDS fails over to the standby |
 | Analyze | "Resilient": availability 100, resilience 95, fault tolerance 100, no single points of failure |
+
+### Screenshots from the simulator
+
+**Design:**
+![Design in the Cloud Architecture Lab](../evidence/cloud-architecture-lab.png)
+
+**Walkthrough 1, HTTP 200:**
+![Walkthrough 1](../evidence/lab-walkthrough-1.png)
+
+**Walkthrough 2 part A, HTTP 202:**
+![Walkthrough 2 part A](../evidence/lab-walkthrough-2a.png)
+
+**Walkthrough 2 part B, HTTP 202:**
+![Walkthrough 2 part B](../evidence/lab-walkthrough-2b.png)
+
+**AZ-A outage, still HTTP 200 (step 12 is the database failover):**
+![AZ-A outage](../evidence/lab-az-failure.png)
+
+**Analyze scores:**
+![Analyze](../evidence/lab-analyze.png)
